@@ -1,0 +1,23 @@
+[33mcommit 92246587aee44a0903273c788fb6fc7a5d0f8b8c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Udemy - Tuan Anh <msc.14635773@gmail.com>
+Date:   Mon Jun 23 22:59:34 2025 +0700
+
+    feat: add 05.txt
+
+[33mcommit 682591f49e60dd172de9d980ef4055c6d5c5fa0f[m
+Author: Udemy - Tuan Anh <msc.14635773@gmail.com>
+Date:   Mon Jun 23 22:48:55 2025 +0700
+
+    feat: add example git
+
+[33mcommit 67cab83ef270cf8b75d1922255462347dc94cadd[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: anhdang.1112 <msc.14635773@gmail.com>
+Date:   Sun Jun 22 22:51:42 2025 +0700
+
+    Exercise 1 of lesson 1
+
+[33mcommit bba0300d607c122412afc6d54cef1d7143a9f66e[m
+Author: anhdang.1112 <msc.14635773@gmail.com>
+Date:   Sun Jun 22 22:21:27 2025 +0700
+
+    init project
