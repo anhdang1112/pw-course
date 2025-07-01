@@ -53,7 +53,7 @@ function isPrime(n) {
   return true;
 }
 
-function getPrimeNumbers() {
+function getPrimeNumbers(arr2) {
   return arr2.filter(isPrime);
 }
 
@@ -61,6 +61,34 @@ let arr2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
 console.log(
   "Các số sau là số nguyên tố : " + (primeNumber = getPrimeNumbers(arr2))
+);
+
+// Cach 2:
+
+function isPrime2(n) {
+  if (n < 2) {
+    return false;
+  }
+  let count = 0;
+  for (let i = 1; i <= n; i++) {
+    if (n % i === 0) {
+      count++;
+      if (count >= 3) {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+
+function getPrimeNumbers2(arr) {
+  return arr.filter(isPrime2);
+}
+
+let arr3 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+
+console.log(
+  "Các số sau là số nguyên tố : " + (primeNumber2 = getPrimeNumbers2(arr3))
 );
 
 // Bai tap 5:
